@@ -373,7 +373,7 @@ len(df.profit[non_numeric_profits])
 bin_sizes, _, _ = plt.hist(df.year[non_numeric_profits], bins = range(1955, 2006))
 ```
 
-<img width="372" height="253" alt="output_11_0" src="https://github.com/user-attachments/assets/9bd52f55-750f-4397-84b8-84554bfbf4af" />
+<img width="372" height="253" alt="output_11_0" src="https://github.com/user-attachments/assets/b6a3f22b-138e-40d6-928d-cd46d7935d4b" />
 
 ```python
 df = df.loc[~non_numeric_profits]
@@ -426,7 +426,7 @@ fig, ax = plt.subplots()
 plot(x, y1, ax, 'Increase in mean Fortune 500 company profits from 1955 to 2005', 'Profit (millions)')
 ```
 
-<img width="435" height="267" alt="output_16_0" src="https://github.com/user-attachments/assets/9232e234-68de-4b54-8d38-15d6aef4b7c9" />
+<img width="435" height="267" alt="output_16_0" src="https://github.com/user-attachments/assets/412d2636-36a4-4140-a209-04d8cf6b6e9f" />
 
 ```python
 y2 = avgs.revenue
@@ -434,7 +434,7 @@ fig, ax = plt.subplots()
 plot(x, y2, ax, 'Increase in mean Fortune 500 company revenues from 1955 to 2005', 'Revenue (millions)')
 ```
 
-<img width="451" height="267" alt="output_17_0" src="https://github.com/user-attachments/assets/1ef7f43d-e488-4984-896b-12ac6b0d8af8" />
+<img width="451" height="267" alt="output_17_0" src="https://github.com/user-attachments/assets/07e5ce09-cbe9-4c5f-8334-b7a1560438b4" />
 
 ```python
 def plot_with_std(x, y, stds, ax, title, y_label):
@@ -450,4 +450,8 @@ fig.set_size_inches(14, 4)
 fig.tight_layout()
 ```
 
-<img width="995" height="280" alt="output_18_0" src="https://github.com/user-attachments/assets/6a1c1b71-a0e0-48a5-a145-f7d827cc0fef" />
+<img width="995" height="280" alt="output_18_0" src="https://github.com/user-attachments/assets/1fd4aa15-1f1b-408a-8ab8-33f171e8330f" />
+
+```python
+
+```
