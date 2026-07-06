@@ -1,4 +1,11 @@
 # Functions
+[Part One](
+
+[Part Two](
+
+[Part Three](
+
+[Part Four](
 ## Functions 1
 Simple use of defining functions
 ```python
@@ -106,7 +113,7 @@ print_temperatures()
 ```
     Temperature in Fahrenheit was: 212.0
     Temperature in Kelvin was: 373.15
-## Functions 2, 3, and 4
+## Functions 2
 Using a defined variable to simplify repetitive tasks as well as including an error message when neccessary.
 ```python
 import numpy
@@ -190,7 +197,7 @@ for filename in filenames[:3]:
 
 
 
-
+## Functions 3
 ```python
 def offset_mean(data, target_mean_value):
     return (data - numpy.mean(data)) + target_mean_value
@@ -300,7 +307,7 @@ help(offset_mean)
 
 
 
-
+## Functions 4
 ```python
 numpy.loadtxt('inflammation-01.csv', delimiter = ',')
 ```
