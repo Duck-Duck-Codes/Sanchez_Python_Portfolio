@@ -1,4 +1,7 @@
+# Defensive Programming
+Purposefully cause an error code to become familiar with troubleshoot messages. Create a defined user function and include a personal error code that appears for the correct instance.
 ```python
+# Trigger simple error message
 numbers = [1.5, 2.3, 0.7, -0.001, 4.4]
 total = 0.0
 for num in numbers:
@@ -25,6 +28,8 @@ print('total is:', total)
 
 
 ```python
+# Create a user defined function that contains a message that explains how to use the command when asked,
+# as well as error messages that only appear when the corresponding error is committed
 def normalize_rectangle(rect):
     """Normalizes a rectangle so that it is at the origin and 1.0 units long on its longest axis.
     input format is (x0, y0, x1, y1).
@@ -50,6 +55,7 @@ def normalize_rectangle(rect):
 ```
 
 ```python
+# Trigger the error message 'Rectangle must contain 4 coordinates'
 print(normalize_rectangle((0.0, 1.0, 2.0)))
 ```
 
@@ -75,6 +81,7 @@ print(normalize_rectangle((0.0, 1.0, 2.0)))
 
 
 ```python
+# Trigger the error message 'Invalid X coordinates'
 print(normalize_rectangle((4.0, 2.0, 1.0, 5.0)))
 ```
 
@@ -100,6 +107,7 @@ print(normalize_rectangle((4.0, 2.0, 1.0, 5.0)))
 
 
 ```python
+# Correct usage of function
 print(normalize_rectangle((0.0, 0.0, 1.0, 5.0)))
 ```
     (0, 0, 0.2, 1.0)
@@ -108,6 +116,7 @@ print(normalize_rectangle((0.0, 0.0, 1.0, 5.0)))
 
 
 ```python
+# Trigger the error message 'Calculated upper y coordinated invalid'
 print(normalize_rectangle((0.0, 0.0, 5.0, 1.0)))
 ```
 
