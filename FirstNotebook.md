@@ -299,6 +299,7 @@ df.loc[non_numeric_profits].head()
 
 
 ```python
+# Create a set of ONLY the non numeric profit
 set(df.profit[non_numeric_profits])
 ```
 
@@ -311,6 +312,7 @@ set(df.profit[non_numeric_profits])
 
 
 ```python
+# Print length of new set
 len(df.profit[non_numeric_profits])
 ```
 
@@ -323,17 +325,20 @@ len(df.profit[non_numeric_profits])
 
 
 ```python
+# Create a histogram that displays the non numeric profits
 bin_sizes, _, _ = plt.hist(df.year[non_numeric_profits], bins = range(1955, 2006))
 ```
 
 <img width="372" height="253" alt="output_11_0" src="https://github.com/user-attachments/assets/b6a3f22b-138e-40d6-928d-cd46d7935d4b" />
 
 ```python
+# Add non numeric profits to the dataframe (df) and convert the profit column to numerical values
 df = df.loc[~non_numeric_profits]
 df.profit = df.profit.apply(pd.to_numeric)
 ```
 
 ```python
+# Print length of dataframe
 len(df)
 ```
 
@@ -346,6 +351,7 @@ len(df)
 
 
 ```python
+# Print data types contained in the file
 df.dtypes
 ```
 
@@ -363,6 +369,8 @@ df.dtypes
 
 
 ```python
+# Create a variable that orders revenue and profit by year, then find the average value of each year.
+# Define a plot function that can change in y value as well as set titles
 group_by_year = df.loc[:, ['year', 'revenue', 'profit']].groupby('year')
 avgs = group_by_year.mean()
 x = avgs.index
@@ -375,6 +383,7 @@ def plot(x, y, ax, title, y_label):
 ```
 
 ```python
+# Print the plot using 'profit' value as y
 fig, ax = plt.subplots()
 plot(x, y1, ax, 'Increase in mean Fortune 500 company profits from 1955 to 2005', 'Profit (millions)')
 ```
@@ -382,6 +391,7 @@ plot(x, y1, ax, 'Increase in mean Fortune 500 company profits from 1955 to 2005'
 <img width="435" height="267" alt="output_16_0" src="https://github.com/user-attachments/assets/412d2636-36a4-4140-a209-04d8cf6b6e9f" />
 
 ```python
+# Define revenue and print plot using 'revenue'  value as y
 y2 = avgs.revenue
 fig, ax = plt.subplots()
 plot(x, y2, ax, 'Increase in mean Fortune 500 company revenues from 1955 to 2005', 'Revenue (millions)')
@@ -390,6 +400,8 @@ plot(x, y2, ax, 'Increase in mean Fortune 500 company revenues from 1955 to 2005
 <img width="451" height="267" alt="output_17_0" src="https://github.com/user-attachments/assets/07e5ce09-cbe9-4c5f-8334-b7a1560438b4" />
 
 ```python
+# Using the same method as before, create a plot with standard deviation
+# Print plot for both 'profit' and 'revenue' 
 def plot_with_std(x, y, stds, ax, title, y_label):
     ax.fill_between(x, y - stds, y + stds, alpha = 0.2)
     plot(x, y, ax, title, y_label)
@@ -405,6 +417,3 @@ fig.tight_layout()
 
 <img width="995" height="280" alt="output_18_0" src="https://github.com/user-attachments/assets/1fd4aa15-1f1b-408a-8ab8-33f171e8330f" />
 
-```python
-
-```
