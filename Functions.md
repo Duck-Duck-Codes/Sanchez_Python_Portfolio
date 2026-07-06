@@ -1,4 +1,5 @@
 # Functions 1
+Simple use of defining functions
 ```python
 fahrenheit_val = 99
 celsius_val = ((fahrenheit_val - 32) * (5/9))
@@ -105,6 +106,7 @@ print_temperatures()
     Temperature in Fahrenheit was: 212.0
     Temperature in Kelvin was: 373.15
 # Functions 2, 3, and 4
+Using a defined variable to simplify repetitive tasks as well as including an error message when neccessary.
 ```python
 import numpy
 import glob
@@ -113,6 +115,7 @@ import matplotlib.pyplot
 ```
 
 ```python
+# Define a variable that can generate a plot for average, max, and min for a patient file
 def visualize(filename):
     
     data = numpy.loadtxt(fname = filename, delimiter = ',')
@@ -137,6 +140,7 @@ def visualize(filename):
 ```
 
 ```python
+# Create a variable that detects inflammation levels and prints report based on data
 def detect_problems(filename):
     
     data = numpy.loadtxt(fname = filename, delimiter = ',')
@@ -150,6 +154,7 @@ def detect_problems(filename):
 ```
 
 ```python
+# Print the name of the file, visualize function and, report message
 filenames = sorted(glob.glob('inflammation*.csv'))
 
 for filename in filenames[:3]:
