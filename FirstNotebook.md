@@ -1,6 +1,8 @@
 # Using Jupyter Notebooks
 Reading a file and converting data into usable variables, then creating a graph to accurately display values.
+
 [Part One](https://github.com/Duck-Duck-Codes/Python_Portfolio/edit/main/FirstNotebook.md#using-jupyter-notebooks-1)
+
 [Part Two](https://github.com/Duck-Duck-Codes/Python_Portfolio/edit/main/FirstNotebook.md#using-jupyter-notebooks-2)
 ## Using Jupyter Notebooks 1
 ```python
