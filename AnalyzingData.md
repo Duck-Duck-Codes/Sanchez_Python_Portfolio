@@ -1,4 +1,9 @@
 # Analyzing Data
+[Part One](
+
+[Part Two](
+
+[Part Three](
 ## Analyzing Data 1 and 2
 Using python coding methods to simplify mathematical data analysis 
 ```python
