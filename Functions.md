@@ -1,5 +1,5 @@
 # Functions
-[Part One](
+[Part One](https://github.com/Duck-Duck-Codes/Python_Portfolio/blob/main/Functions.md#functions-1)
 
 [Part Two](
 
