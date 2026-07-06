@@ -1,4 +1,5 @@
 # Transcribing DNA into RNA
+Python code that will read a file containing a DNA sequence and convert it into an RNA sequence that is printed to a file under the name of user input.
 ```python
 # Prompt user to enter the input fasta file name
 
