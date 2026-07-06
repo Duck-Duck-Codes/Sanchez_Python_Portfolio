@@ -1,4 +1,5 @@
-# Making Choices 1
+# Making Choices
+## Making Choices 1
 Using 'if' and 'else' to make decisions
 ```python
 num = 37
@@ -60,7 +61,7 @@ else:
     print('both of these are false')
 ```
     at least one part is true
-# Making Choices 2
+## Making Choices 2
 Using 'if' 'else' and 'elif' to make decisions and applyication for reading a datafile.
 ```python
 import numpy
