@@ -1,7 +1,7 @@
 # Functions
 [Part One](https://github.com/Duck-Duck-Codes/Python_Portfolio/blob/main/Functions.md#functions-1)
 
-[Part Two](
+[Part Two](https://github.com/Duck-Duck-Codes/Python_Portfolio/blob/main/Functions.md#functions-2)
 
 [Part Three](
 
