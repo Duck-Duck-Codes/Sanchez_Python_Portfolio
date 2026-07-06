@@ -1,5 +1,5 @@
 # Analyzing Data
-[Part One](
+[Part One](https://github.com/Duck-Duck-Codes/Python_Portfolio/blob/main/AnalyzingData.md#analyzing-data-1)
 
 [Part Two](
 
