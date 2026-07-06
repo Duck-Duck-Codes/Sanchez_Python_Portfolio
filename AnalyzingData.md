@@ -5,6 +5,7 @@ import numpy
 ```
 
 ```python
+# Data from loaded file will print once read
 numpy.loadtxt(fname = 'inflammation-01.csv', delimiter = ',')
 ```
 
@@ -23,10 +24,12 @@ numpy.loadtxt(fname = 'inflammation-01.csv', delimiter = ',')
 
 
 ```python
+# Applying a variable name to the function will prevent data from being printed after being read
 data = numpy.loadtxt(fname = 'inflammation-01.csv', delimiter = ',')
 ```
 
 ```python
+# Print data using print() function
 print(data)
 ```
     [[0. 0. 1. ... 3. 0. 0.]
@@ -41,6 +44,7 @@ print(data)
 
 
 ```python
+# Print the area of data cells
 print(data.shape)
 ```
     (60, 40)
@@ -65,6 +69,7 @@ print('middle value in data:', data[29, 19])
 
 
 ```python
+# Print 4 rows and 10 columns
 print(data[0:4, 0:10])
 ```
     [[0. 0. 1. 3. 1. 2. 4. 7. 8. 3.]
@@ -76,6 +81,7 @@ print(data[0:4, 0:10])
 
 
 ```python
+# Print 5 rows and 10 columns
 print(data[5:10, 0:10])
 ```
     [[0. 0. 1. 2. 2. 4. 2. 1. 6. 4.]
@@ -88,6 +94,7 @@ print(data[5:10, 0:10])
 
 
 ```python
+# Isolated the first 3 rows and last 4 columns of the dataset
 small = data[:3, 36:]
 ```
 
@@ -119,6 +126,7 @@ print(numpy.mean(data))
 
 
 ```python
+#Assign names to multiple values in one function
 maxval, minval, stdval = numpy.amax(data), numpy.amin(data), numpy.std(data)
 ```
 
