@@ -5,7 +5,7 @@
 
 [Part Three](https://github.com/Duck-Duck-Codes/Python_Portfolio/blob/main/Functions.md#functions-3)
 
-[Part Four](
+[Part Four](https://github.com/Duck-Duck-Codes/Python_Portfolio/blob/main/Functions.md#functions-4)
 ## Functions 1
 Simple use of defining functions
 ```python
