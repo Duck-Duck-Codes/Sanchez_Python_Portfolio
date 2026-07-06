@@ -4,7 +4,7 @@
 [Part Two](
 
 [Part Three](
-## Analyzing Data 1 and 2
+## Analyzing Data 1
 Using python coding methods to simplify mathematical data analysis 
 ```python
 import numpy
@@ -121,7 +121,7 @@ print(small)
 
 
 
-
+## Analyzing Data 2
 ```python
 # Use a numpy function
 print(numpy.mean(data))
