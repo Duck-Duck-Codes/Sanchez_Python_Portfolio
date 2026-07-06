@@ -1,3 +1,5 @@
+# Using Multiple Files
+Using the glob command to call upon common filenames 
 ```python
 import glob
 ```
@@ -11,6 +13,7 @@ print(glob.glob('inflammation*.csv'))
 
 
 ```python
+# Use glob to apply a graphing function to multiple files
 import glob
 import numpy
 import matplotlib.pyplot
