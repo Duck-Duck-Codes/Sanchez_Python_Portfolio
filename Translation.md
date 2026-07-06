@@ -1,4 +1,5 @@
 # Translating RNA into Protein
+Python code that will read a file containing a RNA sequence and convert it into an protein sequence that is printed to a file under the name of user input.
 ```python
 # Prompt the user to enter the input RNA file name
 
