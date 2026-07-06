@@ -1,4 +1,5 @@
-# Functions 1
+# Functions
+## Functions 1
 Simple use of defining functions
 ```python
 fahrenheit_val = 99
@@ -105,7 +106,7 @@ print_temperatures()
 ```
     Temperature in Fahrenheit was: 212.0
     Temperature in Kelvin was: 373.15
-# Functions 2, 3, and 4
+## Functions 2, 3, and 4
 Using a defined variable to simplify repetitive tasks as well as including an error message when neccessary.
 ```python
 import numpy
