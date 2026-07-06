@@ -1,5 +1,8 @@
 # Using Jupyter Notebooks
 Reading a file and converting data into usable variables, then creating a graph to accurately display values.
+[Part One](https://github.com/Duck-Duck-Codes/Python_Portfolio/edit/main/FirstNotebook.md#using-jupyter-notebooks-1)
+[Part Two](https://github.com/Duck-Duck-Codes/Python_Portfolio/edit/main/FirstNotebook.md#using-jupyter-notebooks-2)
+## Using Jupyter Notebooks 1
 ```python
 %matplotlib inline
 import pandas as pd
@@ -332,6 +335,7 @@ bin_sizes, _, _ = plt.hist(df.year[non_numeric_profits], bins = range(1955, 2006
 
 <img width="372" height="253" alt="output_11_0" src="https://github.com/user-attachments/assets/b6a3f22b-138e-40d6-928d-cd46d7935d4b" />
 
+## Using Jupyter Notebooks 2
 ```python
 # Remove non numeric profits to from the dataframe (df) and convert the profit column to numerical values
 df = df.loc[~non_numeric_profits]
