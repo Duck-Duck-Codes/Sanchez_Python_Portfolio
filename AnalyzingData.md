@@ -1,7 +1,7 @@
 # Analyzing Data
 [Part One](https://github.com/Duck-Duck-Codes/Python_Portfolio/blob/main/AnalyzingData.md#analyzing-data-1)
 
-[Part Two](
+[Part Two](https://github.com/Duck-Duck-Codes/Python_Portfolio/blob/main/AnalyzingData.md#analyzing-data-2)
 
 [Part Three](
 ## Analyzing Data 1
