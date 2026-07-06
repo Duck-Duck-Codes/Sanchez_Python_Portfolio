@@ -1,5 +1,5 @@
 # Using Multiple Files
-Using the glob command to call upon common filenames 
+Using the glob command to find files with common names and call upon multiple files without the use of a 'for' loop.
 ```python
 import glob
 ```
