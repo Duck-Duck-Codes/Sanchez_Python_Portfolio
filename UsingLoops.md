@@ -1,3 +1,5 @@
+# Using Loops
+Using 'for' loops to facilitate repetitive tasks.
 ```python
 odds = [1, 3, 5, 7]
 ```
@@ -17,6 +19,7 @@ print(odds[3])
 
 
 ```python
+# Usage to print multiple values
 odds = [1, 3, 5, 7, 9, 11]
 
 for num in odds:
@@ -33,6 +36,7 @@ for num in odds:
 
 
 ```python
+# Usage to count values
 length = 0
 names = ['Curie', 'Darwin', 'Turing']
 
