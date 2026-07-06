@@ -3,7 +3,7 @@
 
 [Part Two](https://github.com/Duck-Duck-Codes/Python_Portfolio/blob/main/AnalyzingData.md#analyzing-data-2)
 
-[Part Three](
+[Part Three](https://github.com/Duck-Duck-Codes/Python_Portfolio/blob/main/AnalyzingData.md#analyzing-data-3)
 ## Analyzing Data 1
 Using python coding methods to simplify mathematical data analysis 
 ```python
