@@ -8,10 +8,12 @@ sns.set(style = "darkgrid")
 ```
 
 ```python
+# Save file as variable df
 df = pd.read_csv('/home/student/Desktop/classroom/myfiles/notebooks/fortune500.csv')
 ```
 
 ```python
+# Print first five lines of the file
 df.head()
 ```
 
@@ -74,6 +76,7 @@ df.head()
 
 
 ```python
+# Print last five lines of the file
 df.tail()
 ```
 
@@ -135,10 +138,12 @@ df.tail()
 
 
 ```python
+# Change column names in file
 df.columns = ['year', 'rank', 'company', 'revenue', 'profit']
 ```
 
 ```python
+# Print first five lines of the file
 df.head()
 ```
 
@@ -200,6 +205,7 @@ df.head()
 
 
 ```python
+# Print the length of the file
 len(df)
 ```
 
@@ -212,6 +218,7 @@ len(df)
 
 
 ```python
+# Print data types in file
 df.dtypes
 ```
 
@@ -229,6 +236,7 @@ df.dtypes
 
 
 ```python
+# Isolate profit values in the file that are not a number
 non_numeric_profits = df.profit.str.contains('[^0-9.-]')
 df.loc[non_numeric_profits].head()
 ```
