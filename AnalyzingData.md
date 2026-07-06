@@ -248,6 +248,7 @@ matplotlib.pyplot.show()
 <img width="368" height="248" alt="output_2_0" src="https://github.com/user-attachments/assets/5e4fa3cc-a62f-491d-9066-6cbb94896b5d" />
 
 ```python
+# Max inflammation over time
 max_plot = matplotlib.pyplot.plot(numpy.amax(data, axis = 0))
 matplotlib.pyplot.show()
 ```
@@ -255,6 +256,7 @@ matplotlib.pyplot.show()
 <img width="378" height="248" alt="output_3_0" src="https://github.com/user-attachments/assets/3eba0d01-fda2-42b5-9b28-1cc861ad6c74" />
 
 ```python
+# Min inflammation over time
 min_plot = matplotlib.pyplot.plot(numpy.amin(data, axis = 0))
 matplotlib.pyplot.show()
 ```
@@ -262,6 +264,7 @@ matplotlib.pyplot.show()
 <img width="362" height="248" alt="output_4_0" src="https://github.com/user-attachments/assets/e70de3ce-003e-441b-8233-2014b767a10a" />
 
 ```python
+# Plot all three figures at once
 fig = matplotlib.pyplot.figure(figsize =(10.0, 3.0))
 
 axes1 = fig.add_subplot(1, 3, 1)
