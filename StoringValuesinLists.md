@@ -1,3 +1,4 @@
+# Storing Values in Lists
 Saving values as a defined variable to be easily usable in later functions
 ```python
 odds = [1, 3, 5, 7]
@@ -21,10 +22,11 @@ print('"-1" element:', odds[-1])
 
 
 ```python
+# Changing a value in a list
 names = ['Curie', 'Darwing', 'Turing'] # Typo in Darwin's name
 
 print('name is originally:', names)
-names[1] = 'Darwin' #Correct the name
+names[1] = 'Darwin' # Correct the name
 print('final value of names:', names)
 ```
     name is originally: ['Curie', 'Darwing', 'Turing']
@@ -39,6 +41,7 @@ print('final value of names:', names)
 ```
 
 ```python
+# Adding a value to a list
 odds.append(11)
 print('odds after adding a value:', odds)
 ```
@@ -48,6 +51,7 @@ print('odds after adding a value:', odds)
 
 
 ```python
+# Removing a value from a list
 removed_element = odds.pop(0)
 print('odds after removing the first element:', odds)
 print('removed element:', removed_element)
@@ -59,6 +63,7 @@ print('removed element:', removed_element)
 
 
 ```python
+# Reversing a list of values
 odds.reverse()
 print('odds after reversing:', odds)
 ```
@@ -68,19 +73,7 @@ print('odds after reversing:', odds)
 
 
 ```python
-odds = [3, 5, 7]
-primes = odds
-primes.append(2)
-print('primes:', primes)
-print('odds:', odds)
-```
-    primes: [3, 5, 7, 2]
-    odds: [3, 5, 7, 2]
-
-
-
-
-```python
+# Using an existing list to create a new list
 odds = [3, 5, 7]
 primes = list(odds)
 primes.append(2)
