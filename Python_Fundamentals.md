@@ -1,3 +1,4 @@
+# Python Fundamentals
 Basic understanding of using different data types as variables in functions
 ```python
 # Any python interpreter can be used as a calculator:
